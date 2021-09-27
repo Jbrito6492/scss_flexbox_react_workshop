@@ -43,12 +43,12 @@ class Form extends Component {
             <button onClick={this.onSubmit}>submittt</button>
           </>
           { JSON.stringify(this.state.displayObject) }
-          {/* <div className="display-new-image">
+          <div className="display-new-image">
             <p>{this.state.displayObject.name}</p>
             <a href={this.state.displayObject.recipeUrl}>
               <img alt='most recent entry' src={this.state.displayObject.imageUrl}/>
             </a>
-          </div> */}
+          </div>
         </div>
   )}
 }
